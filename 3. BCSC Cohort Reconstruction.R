@@ -71,10 +71,10 @@ Cohort[[i]]$Age3.11<-Cohort[[i]]$Age3.12/(1-0.0184)
 Cohort[[i]]$Age3.10<-Cohort[[i]]$Age3.11/(1-0.0184)
 Cohort[[i]]$Age3.9<-Cohort[[i]]$Age3.10/(1-0.0184)+Cohort[[i]]$Sept2
 Cohort[[i]]$Age3.8<-Cohort[[i]]$Age3.9/(1-0.0184)+Cohort[[i]]$Aug2
-Cohort[[i]]$Age3.7<-Cohort[[i]]$Age3.8/(1-0.0561)+Cohort[[i]]$Jul2
-Cohort[[i]]$Age3.6<-Cohort[[i]]$Age3.7/(1-0.0561)+Cohort[[i]]$Jun2
-Cohort[[i]]$Age3.5<-Cohort[[i]]$Age3.6/(1-0.0561)
-Cohort[[i]]$Age3.4<-Cohort[[i]]$Age3.5/(1-0.0561)
+Cohort[[i]]$Age3.7<-Cohort[[i]]$Age3.8/(1-0.0184)+Cohort[[i]]$Jul2
+Cohort[[i]]$Age3.6<-Cohort[[i]]$Age3.7/(1-0.0184)+Cohort[[i]]$Jun2
+Cohort[[i]]$Age3.5<-Cohort[[i]]$Age3.6/(1-0.0184)
+Cohort[[i]]$Age3.4<-Cohort[[i]]$Age3.5/(1-0.0184)
 #Fish turn 3 April 1
 Cohort[[i]]$Age2.3<-(Cohort[[i]]$Age3.4+Cohort[[i]]$Age2Sp)/(1-0.0561)
 
